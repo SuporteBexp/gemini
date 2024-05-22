@@ -4,7 +4,7 @@ def main():
     assistente_falante = True
     ligar_microfone = True
 
-    genai.configure(api_key="sua-api-key")
+    genai.configure(api_key="AIzaSyD68a2BKMMY_KZMmej-ZBmNVmgYMXr9fSU")
     for m in genai.list_models():
         if 'generateContent' in m.supported_generation_methods:
             print(m.name)
@@ -32,7 +32,7 @@ def main():
         r = sr.Recognizer()
         mic = sr.Microphone()
 
-    bem_vindo = "# Bem Vindo ao Assistente Mil Grau com Gemini AI #"
+    bem_vindo = "# Bem Vindo ao Assistente Bexp #"
     print("")
     print(len(bem_vindo) * "#")
     print(bem_vindo)
